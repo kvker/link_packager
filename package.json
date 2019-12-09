@@ -1,0 +1,24 @@
+{
+  "name": "link",
+  "version": "1.0.0",
+  "description": "simple note list.",
+  "main": "main.js",
+  "scripts": {
+    "mac": "electron-packager . mac --out dist",
+    "win": "electron-packager . win --out dist --platform=win32 --overwrite",
+    "start": "electron ."
+  },
+  "repository": "https://gitee.com/kvker/client_link.git",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial"
+  ],
+  "author": "kvker",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^7.1.3"
+  },
+  "dependencies": {}
+}
