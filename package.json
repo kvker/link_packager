@@ -4,8 +4,8 @@
   "description": "simple note list.",
   "main": "main.js",
   "scripts": {
-    "mac": "electron-packager . mac --out dist",
-    "win": "electron-packager . win --out dist --platform=win32 --overwrite",
+    "mac": "cp -r ../public/ ./public && electron-packager . mac --out dist",
+    "win": "cp -r ../public/ ./public && electron-packager . win --out dist --platform=win32 --overwrite",
     "start": "electron ."
   },
   "repository": "https://gitee.com/kvker/client_link.git",
